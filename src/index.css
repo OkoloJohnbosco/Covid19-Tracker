@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Barlow', sans-serif !important;
+  /* font-family: 'Source Code Pro', monospace !important; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Barlow', sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #bbb;
+  max-height: 100px !important;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}

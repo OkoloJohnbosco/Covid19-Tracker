@@ -1,0 +1,19 @@
+.infoBox {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border: 0;
+    cursor: pointer;
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent;
+    transition: all 500ms ease !important;
+    border-bottom: 4px solid transparent;
+}
+
+.infoBox>* {
+    margin-bottom: 10px !important;
+}
+
+.infoBox:hover {
+    transition: all 500ms ease !important;
+    border-color: rgba(0, 0, 0, 0.15);
+}

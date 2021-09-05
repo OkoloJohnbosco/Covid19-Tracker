@@ -1,0 +1,63 @@
+div.table__wrapper {
+    max-height: 400px !important;
+    overflow-y: scroll;
+
+}
+
+div.table__wrapper::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+div.table__wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+div.table__wrapper::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 10px;
+    min-height: 100px !important;
+}
+
+/* Handle on hover */
+div.table__wrapper::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
+/* Table */
+table.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td,
+.table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table tr.vikky__color {
+    background-color: rgba(99, 117, 72, 0.6);
+    /* background-color: #aaa !important; */
+}
+
+.table td:nth-child(2),
+.table th:nth-child(2) {
+    text-align: right;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr {
+    transition: all 300ms ease;
+}
+
+.table tbody tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+    color: #111;
+}

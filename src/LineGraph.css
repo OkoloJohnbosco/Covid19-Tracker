@@ -1,0 +1,9 @@
+.lineGraph {
+    max-width: 400px;
+}
+
+@media(max-width: 900px) {
+    .lineGraph {
+        max-width: 100%;
+    }
+}
